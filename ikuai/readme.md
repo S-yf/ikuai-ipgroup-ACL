@@ -46,15 +46,10 @@ IPv4的分组数据来自 [ip2region](https://github.com/lionsoul2014/ip2region)
 ## 屏蔽海外IP访问
 ikuai 软路由 使用IP分组与ACL方式 屏蔽海外IP访问源地址https://www.wamano.com/2025/4417.html
 
-1. 首先 登录爱快面板
+1. 首先 登录爱快面板 , 打开 网络设置 – 终端分组设置 – IP 分组 , 点击右上角的【导入】，选择 ikuai_ipgroup-20xxxxxx.txt 文件 ，勾选“合并到当前数据”，确定导入。
 
-打开 网络设置 – 终端分组设置 – IP 分组
 
-点击右上角的【导入】，选择 ikuai_ipgroup-20xxxxxx.txt 文件，勾选“合并到当前数据”，确定导入。
-
-2. 然后我们在 进行下一步，打开 安全设置 – ACL 规则
-
-点击右上角的【导入】，选择 ikuai_acl-20xxxxxx.txt 文件，勾选“合并到当前数据”，确定导入。
+2. 然后我们在 进行下一步，打开 安全设置 – ACL 规则 , 点击右上角的【导入】，选择 ikuai_acl-20xxxxxx.txt 文件，勾选“合并到当前数据”，确定导入。
 
 
 
